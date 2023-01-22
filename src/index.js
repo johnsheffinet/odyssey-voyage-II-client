@@ -12,7 +12,7 @@ import {setContext} from '@apollo/client/link/context';
 const httpLink = createHttpLink({
   uri:
     process.env.NODE_ENV !== 'production'
-      ? 'https://johnsheffinet-verbose-space-umbrella-pp4jv9p95rc764r-4000.preview.app.github.dev'
+      ? 'https://johnsheffinet-verbose-space-umbrella-pp4jv9p95rc764r-4000.preview.app.github.dev/'
       : process.env.REACT_APP_GQL_SERVER
 });
 
